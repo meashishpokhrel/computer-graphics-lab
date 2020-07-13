@@ -1,4 +1,5 @@
-# computer-graphics-lab
+Graphics Creation using P5.js Library!!!
+
 To use This:
 1. Download the ZIP or clone it.
 2. Extract the ZIP.
