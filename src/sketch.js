@@ -15,10 +15,3 @@ function draw() {
   angle += 0.07
 }
 
-// background (175)
-//   rectMode(CENTER)
-//   noStroke()
-//   fill (0, 0,255)
-//   rotateX(angle)
-//   rect (0,0,150,150)
-//   angle += 0.07
