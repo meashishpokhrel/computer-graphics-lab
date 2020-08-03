@@ -21,7 +21,6 @@ function draw() {
   endShape();
   // Outer Shape Completed
   
-  //---------------------------------------------------------------------
   
   //For red part inside of the blue
   fill(205,20,10);
@@ -34,7 +33,6 @@ function draw() {
   endShape();
   // completed red part
   
-  //---------------------------------------------------------------------
   
   
   //Drawing moon with white circle stacked with red circle
@@ -60,7 +58,6 @@ function draw() {
   // Completed making moon
 
   
-  //---------------------------------------------------------------------
   
   // Drawing of SUN
 
@@ -69,12 +66,12 @@ function draw() {
   let v0 = createVector(172, 400);
   let v1 = createVector(33, 0);
   
-  for(var angle=0;angle<360;angle += 30){
-    drawtriangleofSun (v0, v1.rotate(angle), 'white',angle);
+  for(var ang=0;ang<360;ang += 30){
+    ToDrawSun (v0, v1.rotate(ang), 'white',ang);
   } 
 }
 
-function drawtriangleofSun(base, vec, color,radian) {
+function ToDrawSun(base, vec, color,radian) {
   push();
   fill(color);
   translate(base.x, base.y);
