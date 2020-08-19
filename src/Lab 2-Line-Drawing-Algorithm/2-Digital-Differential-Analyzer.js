@@ -7,7 +7,7 @@ function setup() {
 function draw() {
     background("#9b59b6");
 
-    let x1 = 50, y1 = 50, x2 = 200, y2 = 100;
+    let x1 = 100, y1 = 100, x2 = 400, y2 = 400;
 
     const m = (y2 - y1) / (x2 - x1)
 
